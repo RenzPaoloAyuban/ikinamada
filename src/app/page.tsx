@@ -1,23 +1,19 @@
 import NavbarDemo from "@/components/ui/resizable-navbar-demo";
+import HeroVid from "@/components/ui/herovid";
 
 export default function Home() {
   return (
-    <div className="bg-black-100 ">
+    <div className="bg-black-100">
       <NavbarDemo />
-      <div className="container h-screen mx-auto p-8 pt-32">
-        <h1 className="text-4xl font-bold">Welcome to ikinamada</h1>
-        <p className="text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-          quos.
+      <HeroVid>
+        <h1 className="text-4xl md:text-6xl font-bold text-white text-center mb-4 drop-shadow-lg">
+          Welcome to ikinamada
+        </h1>
+        <p className="text-lg text-white text-center drop-shadow">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
         </p>
-      </div>
-      <div className="container h-screen mx-auto p-8 pt-32">
-        <h1 className="text-4xl font-bold">Welcome to ikinamada</h1>
-        <p className="text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-          quos.
-        </p>
-      </div>
+      </HeroVid>
+      {/* ...rest of your content */}
     </div>
   );
 }
