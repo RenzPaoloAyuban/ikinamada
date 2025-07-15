@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HeroVid = ({ children }: { children?: React.ReactNode }) => {
+const HeroSection = ({ children }: { children?: React.ReactNode }) => {
   return (
     <div className="relative w-full h-[60vh] flex items-center justify-center overflow-hidden">
       <video
@@ -17,4 +17,4 @@ const HeroVid = ({ children }: { children?: React.ReactNode }) => {
   );
 };
 
-export default HeroVid;
+export default HeroSection;
