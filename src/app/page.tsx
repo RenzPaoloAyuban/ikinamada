@@ -1,7 +1,8 @@
 import NavbarDemo from "@/components/ui/resizable-navbar-demo";
 import HeroSection from "@/components/HeroSection";
 import ShortFilmSection from "@/components/ShortFilmSection";
-
+import PeopleSection from "@/components/PeopleSection";
+  
 export default function Home() {
   return (
     <div>
@@ -15,6 +16,7 @@ export default function Home() {
         </p>
         </HeroSection>
       <ShortFilmSection  />
+      <PeopleSection />
     </div>
   );
 }
